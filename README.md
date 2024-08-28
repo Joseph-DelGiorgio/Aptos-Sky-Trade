@@ -57,4 +57,4 @@ Integrate with real-world property data and zoning regulations.
 
 For more information about the SkyTrade air rights smart contract, please contact our development team.
 
-Built with ❤️ on Aptos | © 2024 SkyTrade Development Team (Joe, Sathya, Bengs, Oliver, & Sura)
+Built with ❤️ on Aptos | © 2024 Aptos-Sky-Trade Development Team (Joe, Sathya, Bengs, Oliver, & Sura)
