@@ -49,7 +49,7 @@ module SkyTrade::air_rights {
     }
 
     /// Initialize the contract for the caller account
-    public fun initialize(account: &signer) {
+    public entry fun initialize(account: &signer) {
         let registry = AirRightsRegistry {
             next_id: 0,
             parcels: vector::empty(),
@@ -60,6 +60,7 @@ module SkyTrade::air_rights {
         };
         move_to(account, registry);
     }
+
 
     /// Create a new air rights parcel
     public entry fun create_air_rights(account: &signer, cubic_feet: u64, price_per_cubic_foot: u64) acquires AirRightsRegistry {
